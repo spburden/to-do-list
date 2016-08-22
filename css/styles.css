@@ -2,15 +2,24 @@
   text-align: center;
   display: none;
 }
-.radios {
+.radio {
   text-align: right;
 }
 
 .task {
   cursor: pointer;
-  color: blue;
+  color: red;
 }
 
 .task:hover {
   text-decoration: underline;
+}
+
+.task-completed {
+  color: green;
+  cursor: pointer;
+}
+
+#instruction {
+  display: none;
 }

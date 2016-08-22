@@ -18,15 +18,21 @@ $(document).ready(function(){
 
     $("ul#to-do-list").append("<li><span class='task'>" + newTask.activity + "</span></li>");
 
+    $("#instruction").slideDown();
+
     $(".task").last().click(function(){
       $("#task-details").slideDown();
       $("h3").text(newTask.activity);
       $(".deadline").text(newTask.deadline);
       $(".location").text(newTask.location);
-
-
-
     });
 
+    $("li").last().dblclick(function(){
+      var takeAway = confirm("Click 'ok' to delete or 'cancel' to go back.");
+      if(takeAway == true) {
+        this.remove();
+        $("#task-details").hide()
+      }
+    });
   });
 });
