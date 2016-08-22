@@ -10,7 +10,6 @@
   <body>
     <div class="container">
       <h1>To Do List</h1>
-       <i class="glyphicon glyphicons-ok"></i>
       <div class="row">
         <div class="col-md-6">
           <form id="to-do">
@@ -29,13 +28,13 @@
             <button type="submit" class="btn btn-success">Add Task</button>
             <button type="reset" class="btn btn-primary">Reset</button>
           </form>
-          <!-- <div class="hidden-list"> -->
+          <p id="instruction">Click to view task details. Double-click task to delete.</p>
           <ul id="to-do-list">
-            <p id="instruction">Click to view task details. Double-click task to delete.</p>
           </ul>
-          <!-- </div> -->
         </div>
-        <div class="col-md-6" id="task-details">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-5" id="task-details">
           <h3></h3>
           <p>Deadline: <span class="deadline"></span></p>
           <p>Location: <span class="location"></span></p>

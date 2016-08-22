@@ -1,25 +1,39 @@
-#task-details {
-  text-align: center;
-  display: none;
+body {
+  background-color: #FF2F2F
 }
-.radio {
-  text-align: right;
+#task-details {
+  text-align: left;
+  display: none;
+  font-size: 2em;
+}
+h3 {
+  font-size: 2.5em;
+  text-decoration: underline;
+  font-style: italic;
 }
 
+h1 {
+  font-variant: small-caps;
+  font-size: 4em;
+}
 .task {
   cursor: pointer;
-  color: red;
+  color:  #fff;
+  font-size: 2em;
 }
-
 .task:hover {
   text-decoration: underline;
 }
-
 .task-completed {
   color: green;
   cursor: pointer;
 }
-
 #instruction {
   display: none;
+  text-align: left;
+  padding: 5px;
+  font-size: 1.25em;
+}
+label {
+  font-size: 1.75em;
 }
