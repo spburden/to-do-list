@@ -27,5 +27,6 @@ $(document).ready(function(){
         $("#task-details").hide()
       }
     });
+    $("form#to-do")[0].reset();
   });
 });
