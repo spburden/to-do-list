@@ -1,0 +1,16 @@
+#task-details {
+  text-align: center;
+  display: none;
+}
+.radios {
+  text-align: right;
+}
+
+.task {
+  cursor: pointer;
+  color: blue;
+}
+
+.task:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="to-do">
+            <div class="form-group">
+              <label for="task">Task: </label>
+              <input id="activity" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="deadline">Deadline: </label>
+              <input id="deadline" class="form-control" type="datetime-local">
+            </div>
+            <div class="form-group">
+              <label for="location">Location: </label>
+              <input id="location" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-success">Add Task</button>
+          </form>
+          <ul id="to-do-list">
+          </ul>
+        </div>
+        <div class="col-md-6" id="task-details">
+          <h3></h3>
+          <p>Deadline: <span class="deadline"></span></p>
+          <p>Location: <span class="location"></span></p>
+          <div class="radios">
+            <label id="complete" class="radio-inline"><input type="radio">Complete</label>
+            <label id="not-complete" class="radio-inline"><input type="radio" checked>Not Complete</label>
+            <button type="submit" class="btn btn-primary">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
