@@ -1,12 +1,12 @@
-# _{Application Name}_
+# _To-Do List_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Task manager web app, 8-22-16_
 
-#### By _**Martin Cartledge**_
+#### By _**Martin Cartledge &amp; Stephen Burden**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This web app keeps track of all of your tasks that you need to complete including deadline and location of the task._
 
 ## Setup/Installation Requirements
 
@@ -33,4 +33,4 @@ JS_
 
 *This webpage is licensed under the GPL license.*
 
-Copyright (c) 2016 **_Martin Cartledge_**
+Copyright (c) 2016 **_Martin Cartledge &amp; Stephen Burden_**

@@ -24,7 +24,8 @@ $(document).ready(function(){
       $(".deadline").text(newTask.deadline);
       $(".location").text(newTask.location);
 
-      
+
+
     });
 
   });
